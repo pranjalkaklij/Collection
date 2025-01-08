@@ -11,7 +11,7 @@ public class ArrayListClass {
         arrl.add(7);
         // The add method will add the element 
         System.out.println(arrl);
-        System.out.println(arrl.get(1)); // 1-based indexing
+        System.out.println(arrl.get(1)); // 0-based indexing
         arrl.set(2, 45); //modifing the elemets in list
         System.out.println(arrl);
         System.out.println(arrl.contains(7)); // it will check the element is present or not
