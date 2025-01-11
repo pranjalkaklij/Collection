@@ -13,7 +13,9 @@ public class MajorityElement {
             // {
             //     hm.put(arr[i], 1);
             // }
-            //instead of above lengthy code we ca directly use getOrDefault(key, defaulyValue) fumction
+            //instead of above lengthy code we can directly use getOrDefault(key, defaulyValue) fumction
+            //this function check if key is present then return value of key and if key is not present then
+            // set default value and it will return that value
             hm.put(arr[i], hm.getOrDefault(arr[i], 0)+1);
         }
 
